@@ -5,34 +5,52 @@
 <title>EloqDB介绍</title>
 <style>
   body {
-    background-color: black; /* 设置背景为黑色 */
-    font-family: 'Microsoft YaHei', Arial, sans-serif; /* 设置字体为微软雅黑 */
-    color: white; /* 设置文字颜色为白色 */
-    text-align: center; /* 设置文字居中 */
+    background: linear-gradient(135deg, #6dd5ed, #937aa9); /* 设置科技蓝和紫的渐变色背景 */
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0.05em; /* 增加字符间距以模拟逐个敲击效果 */
+    animation: typing 3s steps(22), blink-caret 0.5s step-end infinite; /* 添加动画效果 */
   }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+  }
+
   p {
-    font-size: 100px; /* 设置段落字体大小为100号 */
+    margin: 0;
   }
+
   ul {
     list-style-type: none;
     padding: 0;
   }
+
   li {
     margin-bottom: 1em;
   }
+
   a {
-    color: #009688; /* 设置链接颜色，这是一个科技感的颜色 */
-    text-decoration: none; /* 去除下划线 */
+    color: #fff;
+    text-decoration: none;
   }
+
   a:hover {
-    text-decoration: underline; /* 鼠标悬停时下划线 */
+    text-decoration: underline;
   }
 </style>
 </head>
 <body>
 
 <p>Hello 大家好</p>
-<p>我是EloqDB，我即将由ELoqData发布 </p>
+<p>我是EloqDB，我即将由ELoqData发布</p>
 <p>我将会是一个全新的数据库架构，更快更高效更经济</p>
 
 <ul>
